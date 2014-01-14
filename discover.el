@@ -108,7 +108,7 @@
       ("More"
        ("%" "do by regexp ..." makey-key-mode-popup-dired-regexp)
        ("*" "mark ..." makey-key-mode-popup-dired-marking)
-       ("M-s" "isearch ..." makey-key-mode-popup-dired-isearch-meta)))
+       ("M-s h" "isearch ..." makey-key-mode-popup-dired-isearch-meta)))
      ;; this will also kill the `dired' window. On one hand, it makes
      ;; sense: we're just feeding the commands straight to to dired
      ;; and `q' will indeed quit the dired window. On the other hand,
@@ -360,7 +360,7 @@ with the symbol name of the context menu.."
   '(
     ;; Dired
     (dired dired-mode dired-mode-hook "?")
-    (dired-isearch-meta dired-mode dired-mode-hook "M-s")
+    (dired-isearch-meta dired-mode dired-mode-hook "M-s h")
     (dired-marking dired-mode dired-mode-hook "*")
     (dired-regexp dired-mode dired-mode-hook "%")
     ;; Rectangles - C-x r ...
