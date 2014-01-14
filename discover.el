@@ -366,7 +366,7 @@ with the symbol name of the context menu.."
     ;; Rectangles - C-x r ...
     (rectangles nil nil "C-x r")
     ;; Isearch
-    (isearch nil nil "M-s"))
+    (isearch nil nil "M-s h"))
   "Mappings for `discover-context-menus'
 
 This constant is meant for internal use. Third-party package
